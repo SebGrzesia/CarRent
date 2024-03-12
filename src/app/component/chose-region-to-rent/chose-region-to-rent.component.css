@@ -1,0 +1,18 @@
+.example-spacer {
+    flex: 1 1 auto;
+  }
+
+  img{
+    width: 600px;
+    height: 400px;
+}
+
+mat-grid-tile-footer {
+    margin-left: 51px;
+    margin-right: 51px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+  }

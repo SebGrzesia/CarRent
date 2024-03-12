@@ -1,0 +1,20 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Rent your tesla app</span>
+      <span class="example-spacer"></span>
+        <button mat-raised-button color="warn">Your cars</button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar-row>
+</mat-toolbar> 
+
+<div class="center">
+  <h3>Select the city where you want to rent a car</h3>
+</div>
+<mat-grid-list cols="2" rowHeight="2:1">
+  <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Palma_City_Center.jpg" alt="image"><mat-grid-tile-footer><h1>Palma City Center</h1></mat-grid-tile-footer></button></mat-grid-tile>
+  <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Palma_Airport.jpg" alt="image"><mat-grid-tile-footer><h1>Palma Airport</h1></mat-grid-tile-footer></button></mat-grid-tile>
+  <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Manacor.jpg" alt="image"><mat-grid-tile-footer><h1>Mancor</h1></mat-grid-tile-footer></button></mat-grid-tile>
+  <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Alcudia.jpeg" alt="image"><mat-grid-tile-footer><h1>Alcudia</h1></mat-grid-tile-footer></button></mat-grid-tile>
+</mat-grid-list>

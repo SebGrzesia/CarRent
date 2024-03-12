@@ -1,0 +1,24 @@
+<mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>Rent your tesla app</span>
+      <span class="example-spacer"></span>
+        <button mat-raised-button color="warn">Your cars</button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>logout</mat-icon>
+      </button>
+    </mat-toolbar-row>
+</mat-toolbar> 
+
+<div class="center">
+    <h3>Select the city where you want to rent a car</h3>
+</div>
+
+<mat-grid-list cols="3" rowHeight="2:1">
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Model_3.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla model 3</h1></mat-grid-tile-footer></button></mat-grid-tile>
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Model_S.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla model S</h1></mat-grid-tile-footer></button></mat-grid-tile>
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Model_X.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla model X</h1></mat-grid-tile-footer></button></mat-grid-tile>
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Model_Y.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla model Y</h1></mat-grid-tile-footer></button></mat-grid-tile>
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Tesla_Cybertruck.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla Cybertruck</h1></mat-grid-tile-footer></button></mat-grid-tile>
+    <mat-grid-tile><button routerLink="/carSelector"><img src="../assets/img/Tesla_Roadster.jpg" alt="image"><mat-grid-tile-footer><h1>Tesla Roadster</h1></mat-grid-tile-footer></button></mat-grid-tile>
+  </mat-grid-list>
+
